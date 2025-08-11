@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Convert , Search ans Replace in Js</h1>
+    <p>The string method can convert a number to a string</p>
+    <p id="numResult"></p>
+    <p id="strResult"></p>
+
+    <script>
+        var x = 70
+        var y = 94
+
+        document.getElementById("numResult").innerHTML = x+y
+
+        document.getElementById("strResult").innerHTML = String(x+y)
+
+        a=x+y
+        b=String(a)
+
+        console.log(typeof(a))
+        console.log(typeof(b))
+    </script>
+</body>
+</html>
